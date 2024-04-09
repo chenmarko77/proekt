@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --general-black: #050404;
+  --text-color: #ffffff;
+  --hover-animation: #ffd76e;
+}
+body {
+  font-family: "Inter";
+}
+
+header {
+  background-color: var(--general-black);
+}
+
+.header-menu {
+  width: 1438.02px;
+  margin: 0 auto;
+}
+.header-menu-list {
+  width: 560.3px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-right: 209.17px;
+  height: 72px;
+  align-items: center;
+}
+
+header a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 200;
+  transition: 0.5s;
+}
+
+.header-games {
+  width: 30.98px;
+}
+.header-news {
+  width: 58.96px;
+}
+.header-about {
+  width: 61.96px;
+}
+.header-help {
+  width: 118.92px;
+}
+.header-support {
+  width: 93.94px;
+}
+.header-hotline {
+  width: 92.94px;
+}
+
+header a:hover {
+  font-weight: 500;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffdc18,
+    0 0 30px #ffdc18, 0 0 40px #ffdc18, 0 0 55px #ffdc18, 0 0 75px #ffdc18,
+    0px 0px 6px rgba(255, 215, 110, 0);
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  background-image: url("../img/solgers.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  width: 1439.01px;
+}
+
+.main-title {
+  font-size: 128px;
+  font-weight: 400;
+  margin-top: 74.91px;
+  color: var(--text-color);
+  margin-left: 142.9px;
+}
+
+.main-subtitle {
+  font-size: 64px;
+  font-weight: 400;
+  margin-top: 12.5px;
+  color: var(--text-color);
+  margin-left: 142.9px;
+  margin-bottom: 6.5px;
+}
+
+.main-textbox {
+  height: 150px;
+  width: 459.69px;
+  margin-left: 142.9px;
+  margin-top: 12.5px;
+}
+
+.main-text {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: justify;
+  color: var(--text-color);
+  line-height: 29.05px;
+}
+
+.main-btn {
+  margin-top: 54.5px;
+  background-color: var(--hover-animation);
+  width: 199.86px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.main-section .main-getstarted {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 270px;
+  align-self: center;
+  color: var(--text-color);
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 29.05px;
+}
+
+.aboutus {
+  width: 1440px;
+  height: 1211px;
+  background-color: var(--general-black);
+  color: var(--text-color);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutus-title {
+  width: 610px;
+  height: 116px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58.09px;
+  text-align: center;
+  align-self: center;
+  color: var(--hover-animation);
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.aboutus-text1 {
+  width: 892px;
+  height: 80px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  text-align: justify;
+  align-self: center;
+  margin-bottom: 40px;
+}
+
+.aboutus-text2 {
+  width: 892px;
+  height: 80px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  text-align: justify;
+  align-self: center;
+  margin-bottom: 112px;
+}
+
+.aboutus-people {
+  width: 858px;
+  height: 626px;
+  margin: 0 auto;
+}
+
+.aboutus-people-1-3_4 {
+  display: flex;
+  margin: 0 auto;
+}
+
+.aboutus-people-1-3 {
+  width: 542px;
+}
+
+.aboutus-people-4 {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.aboutus-people-title {
+  color: var(--hover-animation);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 32.15px;
+  margin-top: 100px;
+}
+
+.aboutus-people-levenko {
+  margin-bottom: 4px;
+  border: 2px var(--hover-animation) solid;
+}
+
+.aboutus-levenkotext {
+  text-align: center;
+}
+
+.aboutus-people-1_2-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutus-people-item1 {
+  align-self: flex-end;
+}
+
+.aboutus-doroshenkotext {
+  line-height: 29px;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.aboutus-people-list2-3 {
+  display: flex;
+}
+
+.aboutus-people-2 {
+  margin-right: 20px;
+  width: 302px;
+}
+
+.aboutus-people-3 {
+  width: 212px;
+}
+
+.aboutus-balinskyitext {
+  line-height: 29px;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.aboutus-parkertext {
+  line-height: 29px;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.aboutus-levenkotext {
+  line-height: 29px;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.aboutus-people-doroshenko {
+  border: 2px var(--hover-animation) solid;
+}
+.aboutus-people-balinskyi {
+  border: 2px var(--hover-animation) solid;
+}
+
+.lviv {
+  background-image: url("../img/flag.png");
+  height: 300px;
+  width: 1440px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+
+  box-shadow: -1px 1px 8px -3px #00000040 inset;
+}
+
+.lviv-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  text-align: center;
+
+  margin-top: 75px;
+  margin-bottom: 25px;
+}
+
+.lviv-text {
+  width: 351px;
+  height: 92px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  text-align: center;
+  align-self: center;
+}
+
+.information {
+  background-color: var(--general-black);
+  width: 1440px;
+  height: 644px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.information-title {
+  width: 625px;
+  height: 70.84px;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 77.45px;
+  color: var(--hover-animation);
+}
+
+.information-text {
+  width: 559px;
+  height: 153.64px;
+  color: var(--text-color);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  text-align: justify;
+  margin-top: 46px;
+  margin-bottom: 130px;
+}
+
+.information-picture {
+  width: 396px;
+  height: 460px;
+  margin: 92px 132px 92px 144px;
+}
+
+.information-about {
+  padding-right: 144px;
+  padding-top: 36.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.information-button {
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.05px;
+  background-color: var(--hover-animation);
+}
