@@ -325,7 +325,7 @@ header a:hover {
 .information-title {
   width: 625px;
   height: 70.84px;
-  font-size: 64px;
+  font-size: 54px;
   font-weight: 400;
   line-height: 77.45px;
   color: var(--hover-animation);
@@ -378,7 +378,7 @@ header a:hover {
 }
 
 .support-title {
-  width: 564px;
+  width: 900px;
   height: 82px;
   font-size: 64px;
   font-weight: 400;
@@ -478,6 +478,11 @@ header a:hover {
   border: 5px solid var(--wideborder);
 }
 
+.goods-img{
+  margin-top: 80px;
+
+}
+
 .games-titles {
   width: 1051.79px;
   display: flex;
@@ -510,6 +515,7 @@ header a:hover {
   color: var(--hover-animation);
   margin-top: 291.73px;
   margin-bottom: 23px;
+  text-align: center;
 }
 
 .achievments {
@@ -577,7 +583,7 @@ header a:hover {
 
 .achivements-column3-textbox {
   width: 312px;
-  height: 436px;
+  height: 336px;
   border: 2px solid var(--hover-animation);
 }
 
@@ -593,7 +599,7 @@ header a:hover {
 
 .achivements-column1-textbox-text {
   width: 289px;
-  height: 120px;
+  height: 140px;
 }
 
 .achivements-column2-textbox-text {
